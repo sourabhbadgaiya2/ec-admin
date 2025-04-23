@@ -44,6 +44,8 @@ const Bloglist = () => {
   }, []);
   const getBlogStates = useSelector((state) => state.blogs.blogs);
 
+  console.log(getBlogStates, "GET_BLOG");
+
   const getBlogState = getBlogStates.getAllBlog || [];
 
   const data1 = [];

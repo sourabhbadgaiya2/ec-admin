@@ -47,7 +47,7 @@ const Blogcatlist = () => {
   const bCatStates = useSelector((state) => state.bCategory.bCategories);
   const bCatState = bCatStates.category || [];
 
-  console.log(bCatState, "Blog Cat list");
+  console.log(bCatStates, "Blog Cat list");
 
   const data1 = [];
   for (let i = 0; i < bCatState.length; i++) {
